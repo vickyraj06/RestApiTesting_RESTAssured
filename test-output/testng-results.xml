@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-22T15:23:26 IST" name="RESTAPI_TESTING" finished-at="2021-10-22T15:23:35 IST" duration-ms="9199">
+    <groups>
+    </groups>
+    <test started-at="2021-10-22T15:23:26 IST" name="HTTP-METHODS" finished-at="2021-10-22T15:23:35 IST" duration-ms="9199">
+      <class name="com.RestAssured_Project_TestCases.TC_005_DELETE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssured_Project_TestCases.TC_005_DELETE@72967906]" started-at="2021-10-22T15:23:34 IST" name="setup" finished-at="2021-10-22T15:23:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="test_DELETE()[pri:0, instance:com.RestAssured_Project_TestCases.TC_005_DELETE@72967906]" started-at="2021-10-22T15:23:34 IST" name="test_DELETE" finished-at="2021-10-22T15:23:35 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_DELETE -->
+        <test-method signature="check_responseBody()[pri:0, instance:com.RestAssured_Project_TestCases.TC_005_DELETE@72967906]" started-at="2021-10-22T15:23:35 IST" name="check_responseBody" finished-at="2021-10-22T15:23:35 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responseBody -->
+        <test-method signature="check_responsetime()[pri:0, instance:com.RestAssured_Project_TestCases.TC_005_DELETE@72967906]" started-at="2021-10-22T15:23:35 IST" name="check_responsetime" finished-at="2021-10-22T15:23:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responsetime -->
+        <test-method signature="check_statusLINE()[pri:0, instance:com.RestAssured_Project_TestCases.TC_005_DELETE@72967906]" started-at="2021-10-22T15:23:35 IST" name="check_statusLINE" finished-at="2021-10-22T15:23:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_statusLINE -->
+        <test-method signature="check_statuscode()[pri:0, instance:com.RestAssured_Project_TestCases.TC_005_DELETE@72967906]" started-at="2021-10-22T15:23:35 IST" name="check_statuscode" finished-at="2021-10-22T15:23:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_statuscode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssured_Project_TestCases.TC_005_DELETE@72967906]" started-at="2021-10-22T15:23:35 IST" name="teardown" finished-at="2021-10-22T15:23:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssured_Project_TestCases.TC_005_DELETE -->
+      <class name="com.RestAssured_Project_TestCases.TC_004_PUT">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="setup" finished-at="2021-10-22T15:23:34 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="test_Setup()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="test_Setup" finished-at="2021-10-22T15:23:34 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Setup -->
+        <test-method signature="check_Contenttype()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="check_Contenttype" finished-at="2021-10-22T15:23:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Contenttype -->
+        <test-method signature="check_POSTDetails()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="check_POSTDetails" finished-at="2021-10-22T15:23:34 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_POSTDetails -->
+        <test-method signature="check_responseBody()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="check_responseBody" finished-at="2021-10-22T15:23:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responseBody -->
+        <test-method signature="check_responsetime()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="check_responsetime" finished-at="2021-10-22T15:23:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responsetime -->
+        <test-method signature="check_statusLINE()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="check_statusLINE" finished-at="2021-10-22T15:23:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_statusLINE -->
+        <test-method signature="check_statuscode()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="check_statuscode" finished-at="2021-10-22T15:23:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_statuscode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssured_Project_TestCases.TC_004_PUT@67c27493]" started-at="2021-10-22T15:23:34 IST" name="teardown" finished-at="2021-10-22T15:23:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssured_Project_TestCases.TC_004_PUT -->
+      <class name="com.RestAssured_Project_TestCases.TC_003_POST_DDT">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssured_Project_TestCases.TC_003_POST_DDT@59662a0b]" started-at="2021-10-22T15:23:30 IST" name="setup" finished-at="2021-10-22T15:23:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_POST_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.RestAssured_Project_TestCases.TC_003_POST_DDT@59662a0b]" started-at="2021-10-22T15:23:31 IST" name="test_POST_DDT" data-provider="biodata" finished-at="2021-10-22T15:23:32 IST" duration-ms="723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vicky]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_POST_DDT -->
+        <test-method signature="test_POST_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.RestAssured_Project_TestCases.TC_003_POST_DDT@59662a0b]" started-at="2021-10-22T15:23:32 IST" name="test_POST_DDT" data-provider="biodata" finished-at="2021-10-22T15:23:32 IST" duration-ms="503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joseph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[software]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_POST_DDT -->
+        <test-method signature="test_POST_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.RestAssured_Project_TestCases.TC_003_POST_DDT@59662a0b]" started-at="2021-10-22T15:23:32 IST" name="test_POST_DDT" data-provider="biodata" finished-at="2021-10-22T15:23:33 IST" duration-ms="538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suba]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ragavi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[designer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_POST_DDT -->
+        <test-method signature="test_POST_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.RestAssured_Project_TestCases.TC_003_POST_DDT@59662a0b]" started-at="2021-10-22T15:23:33 IST" name="test_POST_DDT" data-provider="biodata" finished-at="2021-10-22T15:23:33 IST" duration-ms="464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mithra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[actor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_POST_DDT -->
+        <test-method signature="test_POST_DDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.RestAssured_Project_TestCases.TC_003_POST_DDT@59662a0b]" started-at="2021-10-22T15:23:33 IST" name="test_POST_DDT" data-provider="biodata" finished-at="2021-10-22T15:23:34 IST" duration-ms="447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jeya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shanthi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_POST_DDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssured_Project_TestCases.TC_003_POST_DDT@59662a0b]" started-at="2021-10-22T15:23:34 IST" name="teardown" finished-at="2021-10-22T15:23:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssured_Project_TestCases.TC_003_POST_DDT -->
+      <class name="com.RestAssured_Project_TestCases.TC_002_POST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssured_Project_TestCases.TC_002_POST@1b7cc17c]" started-at="2021-10-22T15:23:29 IST" name="setup" finished-at="2021-10-22T15:23:29 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="test_Setup()[pri:0, instance:com.RestAssured_Project_TestCases.TC_002_POST@1b7cc17c]" started-at="2021-10-22T15:23:29 IST" name="test_Setup" finished-at="2021-10-22T15:23:29 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Setup -->
+        <test-method signature="check_POSTDetails()[pri:0, instance:com.RestAssured_Project_TestCases.TC_002_POST@1b7cc17c]" started-at="2021-10-22T15:23:29 IST" name="check_POSTDetails" finished-at="2021-10-22T15:23:30 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_POSTDetails -->
+        <test-method signature="check_responseBody()[pri:0, instance:com.RestAssured_Project_TestCases.TC_002_POST@1b7cc17c]" started-at="2021-10-22T15:23:30 IST" name="check_responseBody" finished-at="2021-10-22T15:23:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responseBody -->
+        <test-method signature="check_responsetime()[pri:0, instance:com.RestAssured_Project_TestCases.TC_002_POST@1b7cc17c]" started-at="2021-10-22T15:23:30 IST" name="check_responsetime" finished-at="2021-10-22T15:23:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responsetime -->
+        <test-method signature="check_statusLINE()[pri:0, instance:com.RestAssured_Project_TestCases.TC_002_POST@1b7cc17c]" started-at="2021-10-22T15:23:30 IST" name="check_statusLINE" finished-at="2021-10-22T15:23:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_statusLINE -->
+        <test-method signature="check_statuscode()[pri:0, instance:com.RestAssured_Project_TestCases.TC_002_POST@1b7cc17c]" started-at="2021-10-22T15:23:30 IST" name="check_statuscode" finished-at="2021-10-22T15:23:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_statuscode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssured_Project_TestCases.TC_002_POST@1b7cc17c]" started-at="2021-10-22T15:23:30 IST" name="teardown" finished-at="2021-10-22T15:23:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssured_Project_TestCases.TC_002_POST -->
+      <class name="com.RestAssured_Project_TestCases.TC_001_GET">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:26 IST" name="setup" finished-at="2021-10-22T15:23:26 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="test_Setup()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:26 IST" name="test_Setup" finished-at="2021-10-22T15:23:28 IST" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Setup -->
+        <test-method signature="check_Contenttype()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:28 IST" name="check_Contenttype" finished-at="2021-10-22T15:23:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Contenttype -->
+        <test-method signature="check_contentEncoding()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:28 IST" name="check_contentEncoding" finished-at="2021-10-22T15:23:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_contentEncoding -->
+        <test-method signature="check_responseBody()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:28 IST" name="check_responseBody" finished-at="2021-10-22T15:23:29 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responseBody -->
+        <test-method signature="check_responsetime()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:29 IST" name="check_responsetime" finished-at="2021-10-22T15:23:29 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responsetime -->
+        <test-method signature="check_server()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:29 IST" name="check_server" finished-at="2021-10-22T15:23:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_server -->
+        <test-method signature="check_statusLINE()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:29 IST" name="check_statusLINE" finished-at="2021-10-22T15:23:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_statusLINE -->
+        <test-method signature="check_statuscode()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:29 IST" name="check_statuscode" finished-at="2021-10-22T15:23:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_statuscode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssured_Project_TestCases.TC_001_GET@3febb011]" started-at="2021-10-22T15:23:29 IST" name="teardown" finished-at="2021-10-22T15:23:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssured_Project_TestCases.TC_001_GET -->
+    </test> <!-- HTTP-METHODS -->
+  </suite> <!-- RESTAPI_TESTING -->
+</testng-results>

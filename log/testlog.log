@@ -1,0 +1,216 @@
+2021-10-22 14:48:29,202 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 14:48:29,211 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Test Started
+2021-10-22 14:48:31,673 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RCONTENT-TYPE
+2021-10-22 14:48:31,681 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-ENCODING
+2021-10-22 14:48:31,719 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 14:48:31,724 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 14:48:31,729 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_SERVER
+2021-10-22 14:48:31,735 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 14:48:31,740 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 14:48:31,745 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Testing FINISHED
+2021-10-22 14:55:58,945 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 14:56:00,286 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 14:56:03,083 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 14:56:03,576 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 14:56:04,122 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 14:56:04,688 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 14:56:05,240 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Testing FINISHED
+2021-10-22 14:57:45,889 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 14:57:45,897 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Test Started
+2021-10-22 14:57:49,660 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_USERS-DETAILS
+2021-10-22 14:57:49,673 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 14:57:49,699 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 14:57:49,710 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 14:57:49,718 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Testing FINISHED
+2021-10-22 14:58:15,202 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 14:58:15,210 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Test Started
+2021-10-22 14:58:18,942 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_USERS-DETAILS
+2021-10-22 14:58:18,954 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 14:58:18,959 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 14:58:18,964 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 14:58:18,971 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 14:58:18,975 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Testing FINISHED
+2021-10-22 15:13:41,215 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 15:13:41,223 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Test Started
+2021-10-22 15:13:43,677 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 15:13:43,686 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-ENCODING
+2021-10-22 15:13:43,722 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 15:13:43,728 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 15:13:43,733 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_SERVER
+2021-10-22 15:13:43,742 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 15:13:43,753 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 15:13:43,763 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Testing FINISHED
+2021-10-22 15:20:25,902 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 15:20:25,910 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Test Started
+2021-10-22 15:20:28,227 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 15:20:28,254 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-ENCODING
+2021-10-22 15:20:28,298 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 15:20:28,306 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 15:20:28,313 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_SERVER
+2021-10-22 15:20:28,319 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 15:20:28,325 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 15:20:28,330 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Testing FINISHED
+2021-10-22 15:23:26,557 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 15:23:26,564 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Test Started
+2021-10-22 15:23:28,945 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 15:23:28,964 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-ENCODING
+2021-10-22 15:23:29,000 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 15:23:29,007 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 15:23:29,012 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_SERVER
+2021-10-22 15:23:29,017 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 15:23:29,023 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 15:23:29,028 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Testing FINISHED
+2021-10-22 15:23:29,035 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 15:23:29,036 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Test Started
+2021-10-22 15:23:30,419 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_USERS-DETAILS
+2021-10-22 15:23:30,425 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 15:23:30,431 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 15:23:30,437 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 15:23:30,446 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 15:23:30,454 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Testing FINISHED
+2021-10-22 15:23:30,461 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 15:23:31,712 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 15:23:32,438 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 15:23:32,947 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 15:23:33,490 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 15:23:33,953 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 15:23:34,403 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Testing FINISHED
+2021-10-22 15:23:34,420 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 15:23:34,422 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_004_PUT Test Started
+2021-10-22 15:23:34,853 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 15:23:34,919 - com.RestAssured_Project_TestCases.Baseclass -INFO - USERDETAILS UPDATED SUCCESSFULLY
+2021-10-22 15:23:34,922 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 15:23:34,927 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 15:23:34,932 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 15:23:34,934 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 15:23:34,937 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_004_PUT Testing FINISHED
+2021-10-22 15:23:34,941 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 15:23:34,942 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_005_DELETE Testing FINISHED
+2021-10-22 15:23:35,384 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 15:23:35,392 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 15:23:35,405 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 15:23:35,411 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 15:23:35,414 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_005_DELETE Testing FINISHED
+2021-10-22 16:15:07,707 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:15:07,712 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Test Started
+2021-10-22 16:15:10,799 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 16:15:10,818 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-ENCODING
+2021-10-22 16:15:10,849 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:15:10,852 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:15:10,855 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_SERVER
+2021-10-22 16:15:10,860 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:15:10,864 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:15:10,885 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Testing FINISHED
+2021-10-22 16:15:10,928 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:15:10,929 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Test Started
+2021-10-22 16:15:12,374 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_USERS-DETAILS
+2021-10-22 16:15:12,401 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:15:12,406 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:15:12,418 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:15:12,421 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:15:12,424 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Testing FINISHED
+2021-10-22 16:15:12,431 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:15:13,894 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:15:14,513 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:15:14,956 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:15:15,426 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:15:15,880 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:15:16,345 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Testing FINISHED
+2021-10-22 16:15:16,349 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:15:16,350 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_004_PUT Test Started
+2021-10-22 16:15:16,817 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 16:15:16,852 - com.RestAssured_Project_TestCases.Baseclass -INFO - USERDETAILS UPDATED SUCCESSFULLY
+2021-10-22 16:15:16,853 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:15:16,854 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:15:16,855 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:15:16,856 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:15:16,857 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_004_PUT Testing FINISHED
+2021-10-22 16:15:16,861 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:15:16,861 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_005_DELETE Testing FINISHED
+2021-10-22 16:15:17,333 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:15:17,334 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:15:17,335 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:15:17,337 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:15:17,338 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_005_DELETE Testing FINISHED
+2021-10-22 16:16:06,858 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:16:06,868 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Test Started
+2021-10-22 16:16:09,264 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 16:16:09,282 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-ENCODING
+2021-10-22 16:16:09,317 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:16:09,319 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:16:09,321 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_SERVER
+2021-10-22 16:16:09,324 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:16:09,328 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:16:09,332 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Testing FINISHED
+2021-10-22 16:16:09,342 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:16:09,343 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Test Started
+2021-10-22 16:16:10,635 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_USERS-DETAILS
+2021-10-22 16:16:10,639 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:16:10,642 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:16:10,643 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:16:10,649 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:16:10,652 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Testing FINISHED
+2021-10-22 16:16:10,657 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:16:12,016 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:16:12,488 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:16:13,013 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:16:13,523 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:16:14,062 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:16:14,577 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Testing FINISHED
+2021-10-22 16:16:14,591 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:16:14,594 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_004_PUT Test Started
+2021-10-22 16:16:15,059 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 16:16:15,214 - com.RestAssured_Project_TestCases.Baseclass -INFO - USERDETAILS UPDATED SUCCESSFULLY
+2021-10-22 16:16:15,217 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:16:15,220 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:16:15,224 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:16:15,227 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:16:15,230 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_004_PUT Testing FINISHED
+2021-10-22 16:16:15,235 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:16:15,236 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_005_DELETE Testing FINISHED
+2021-10-22 16:16:15,686 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:16:15,693 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:16:15,699 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:16:15,704 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:16:15,714 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_005_DELETE Testing FINISHED
+2021-10-22 16:21:16,760 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:21:16,769 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Test Started
+2021-10-22 16:21:19,224 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 16:21:19,244 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-ENCODING
+2021-10-22 16:21:19,278 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:21:19,280 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:21:19,283 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_SERVER
+2021-10-22 16:21:19,287 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:21:19,292 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:21:19,299 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_001_GET Testing FINISHED
+2021-10-22 16:21:19,307 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:21:19,310 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Test Started
+2021-10-22 16:21:20,958 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_USERS-DETAILS
+2021-10-22 16:21:20,967 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:21:20,969 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:21:20,972 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:21:20,976 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:21:20,979 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_002_POST Testing FINISHED
+2021-10-22 16:21:20,987 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:21:22,363 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:21:22,840 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:21:23,364 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:21:23,879 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:21:24,421 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Test Started
+2021-10-22 16:21:24,928 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_003_POST_DDT Testing FINISHED
+2021-10-22 16:21:24,933 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:21:24,934 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_004_PUT Test Started
+2021-10-22 16:21:25,409 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_CONTENT-TYPE
+2021-10-22 16:21:25,551 - com.RestAssured_Project_TestCases.Baseclass -INFO - USERDETAILS UPDATED SUCCESSFULLY
+2021-10-22 16:21:25,554 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:21:25,557 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:21:25,559 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:21:25,561 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:21:25,563 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_004_PUT Testing FINISHED
+2021-10-22 16:21:25,568 - com.RestAssured_Project_TestCases.Baseclass -INFO - REST ASSURED API TESTING PROJECT TESTING
+2021-10-22 16:21:25,568 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_005_DELETE Testing FINISHED
+2021-10-22 16:21:26,079 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSEBODY
+2021-10-22 16:21:26,082 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_RESPONSETIME
+2021-10-22 16:21:26,085 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSLINE
+2021-10-22 16:21:26,087 - com.RestAssured_Project_TestCases.Baseclass -INFO - CHECKED_STATUSCODE
+2021-10-22 16:21:26,089 - com.RestAssured_Project_TestCases.Baseclass -INFO - TC_005_DELETE Testing FINISHED

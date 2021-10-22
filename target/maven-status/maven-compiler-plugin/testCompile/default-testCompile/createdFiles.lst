@@ -1,0 +1,9 @@
+com\RestAssured_Project_TestCases\TC_004_PUT.class
+com\RestAssured_Project_Utilities\RestUtilities.class
+com\RestAssured_Project_Utilities\Reporting.class
+com\RestAssured_Project_TestCases\TC_003_POST_DDT.class
+com\RestAssured_Project_TestCases\Baseclass.class
+com\RestAssured_Project_TestCases\TC_002_POST.class
+com\RestAssured_Project_TestCases\TC_001_GET.class
+com\RestAssured_Project_TestCases\TC_005_DELETE.class
+com\RestAssured_Project_Utilities\XLUtils.class

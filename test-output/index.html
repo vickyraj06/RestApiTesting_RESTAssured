@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RESTAPI_TESTING" class="navigator-link">
+              <span class="suite-name border-passed">RESTAPI_TESTING</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RESTAPI_TESTING" class="navigator-link ">
+                    <span>C:\eclipse-workspace\com.RestAssured_Project\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RESTAPI_TESTING" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RESTAPI_TESTING" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RESTAPI_TESTING" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RESTAPI_TESTING" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RESTAPI_TESTING" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RESTAPI_TESTING" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RESTAPI_TESTING" class="hide-methods passed suite-RESTAPI_TESTING"> (hide)</a> <!-- hide-methods passed suite-RESTAPI_TESTING -->
+                      <a href="#" panel-name="suite-RESTAPI_TESTING" class="show-methods passed suite-RESTAPI_TESTING"> (show)</a> <!-- show-methods passed suite-RESTAPI_TESTING -->
+                    </span>
+                    <div class="method-list-content passed suite-RESTAPI_TESTING">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_001_GET" class="method navigator-link" hash-for-method="check_Contenttype">check_Contenttype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_004_PUT" class="method navigator-link" hash-for-method="check_Contenttype">check_Contenttype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_004_PUT" class="method navigator-link" hash-for-method="check_POSTDetails">check_POSTDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_002_POST" class="method navigator-link" hash-for-method="check_POSTDetails">check_POSTDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_001_GET" class="method navigator-link" hash-for-method="check_contentEncoding">check_contentEncoding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_004_PUT" class="method navigator-link" hash-for-method="check_responseBody">check_responseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_001_GET" class="method navigator-link" hash-for-method="check_responseBody">check_responseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_005_DELETE" class="method navigator-link" hash-for-method="check_responseBody">check_responseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_002_POST" class="method navigator-link" hash-for-method="check_responseBody">check_responseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_002_POST" class="method navigator-link" hash-for-method="check_responsetime">check_responsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_001_GET" class="method navigator-link" hash-for-method="check_responsetime">check_responsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_004_PUT" class="method navigator-link" hash-for-method="check_responsetime">check_responsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_005_DELETE" class="method navigator-link" hash-for-method="check_responsetime">check_responsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_001_GET" class="method navigator-link" hash-for-method="check_server">check_server</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_002_POST" class="method navigator-link" hash-for-method="check_statusLINE">check_statusLINE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_004_PUT" class="method navigator-link" hash-for-method="check_statusLINE">check_statusLINE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_005_DELETE" class="method navigator-link" hash-for-method="check_statusLINE">check_statusLINE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_001_GET" class="method navigator-link" hash-for-method="check_statusLINE">check_statusLINE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_002_POST" class="method navigator-link" hash-for-method="check_statuscode">check_statuscode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_001_GET" class="method navigator-link" hash-for-method="check_statuscode">check_statuscode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_005_DELETE" class="method navigator-link" hash-for-method="check_statuscode">check_statuscode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_004_PUT" class="method navigator-link" hash-for-method="check_statuscode">check_statuscode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_003_POST_DDT" class="method navigator-link" hash-for-method="test_POST_DDT(suba, ragavi, designer)">test_POST_DDT(suba, ragavi, designer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_003_POST_DDT" class="method navigator-link" hash-for-method="test_POST_DDT(sam, mithra, actor)">test_POST_DDT(sam, mithra, actor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_003_POST_DDT" class="method navigator-link" hash-for-method="test_POST_DDT(vicky, raj, tester)">test_POST_DDT(vicky, raj, tester)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_003_POST_DDT" class="method navigator-link" hash-for-method="test_POST_DDT(jeya, shanthi, analyst)">test_POST_DDT(jeya, shanthi, analyst)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RESTAPI_TESTING" title="com.RestAssured_Project_TestCases.TC_003_POST_DDT" class="method navigator-link" hash-for-method="test_POST_DDT(joseph, vijay, software)">test_POST_DDT(joseph, vijay, software)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RESTAPI_TESTING -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RESTAPI_TESTING" class="panel RESTAPI_TESTING">
+          <div class="suite-RESTAPI_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RestAssured_Project_TestCases.TC_004_PUT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_Contenttype">
+                  </a> <!-- check_Contenttype -->
+                  <span class="method-name">check_Contenttype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_POSTDetails">
+                  </a> <!-- check_POSTDetails -->
+                  <span class="method-name">check_POSTDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_responseBody">
+                  </a> <!-- check_responseBody -->
+                  <span class="method-name">check_responseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_responsetime">
+                  </a> <!-- check_responsetime -->
+                  <span class="method-name">check_responsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_statusLINE">
+                  </a> <!-- check_statusLINE -->
+                  <span class="method-name">check_statusLINE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_statuscode">
+                  </a> <!-- check_statuscode -->
+                  <span class="method-name">check_statuscode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTAPI_TESTING-class-passed -->
+          <div class="suite-RESTAPI_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RestAssured_Project_TestCases.TC_001_GET</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_Contenttype">
+                  </a> <!-- check_Contenttype -->
+                  <span class="method-name">check_Contenttype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_contentEncoding">
+                  </a> <!-- check_contentEncoding -->
+                  <span class="method-name">check_contentEncoding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_responseBody">
+                  </a> <!-- check_responseBody -->
+                  <span class="method-name">check_responseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_responsetime">
+                  </a> <!-- check_responsetime -->
+                  <span class="method-name">check_responsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_server">
+                  </a> <!-- check_server -->
+                  <span class="method-name">check_server</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_statusLINE">
+                  </a> <!-- check_statusLINE -->
+                  <span class="method-name">check_statusLINE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_statuscode">
+                  </a> <!-- check_statuscode -->
+                  <span class="method-name">check_statuscode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTAPI_TESTING-class-passed -->
+          <div class="suite-RESTAPI_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RestAssured_Project_TestCases.TC_002_POST</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_POSTDetails">
+                  </a> <!-- check_POSTDetails -->
+                  <span class="method-name">check_POSTDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_responseBody">
+                  </a> <!-- check_responseBody -->
+                  <span class="method-name">check_responseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_responsetime">
+                  </a> <!-- check_responsetime -->
+                  <span class="method-name">check_responsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_statusLINE">
+                  </a> <!-- check_statusLINE -->
+                  <span class="method-name">check_statusLINE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_statuscode">
+                  </a> <!-- check_statuscode -->
+                  <span class="method-name">check_statuscode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTAPI_TESTING-class-passed -->
+          <div class="suite-RESTAPI_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RestAssured_Project_TestCases.TC_005_DELETE</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_responseBody">
+                  </a> <!-- check_responseBody -->
+                  <span class="method-name">check_responseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_responsetime">
+                  </a> <!-- check_responsetime -->
+                  <span class="method-name">check_responsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_statusLINE">
+                  </a> <!-- check_statusLINE -->
+                  <span class="method-name">check_statusLINE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_statuscode">
+                  </a> <!-- check_statuscode -->
+                  <span class="method-name">check_statuscode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTAPI_TESTING-class-passed -->
+          <div class="suite-RESTAPI_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RestAssured_Project_TestCases.TC_003_POST_DDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_POST_DDT(suba, ragavi, designer)">
+                  </a> <!-- test_POST_DDT(suba, ragavi, designer) -->
+                  <span class="method-name">test_POST_DDT</span>
+                  <span class="parameters">(suba, ragavi, designer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_POST_DDT(sam, mithra, actor)">
+                  </a> <!-- test_POST_DDT(sam, mithra, actor) -->
+                  <span class="method-name">test_POST_DDT</span>
+                  <span class="parameters">(sam, mithra, actor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_POST_DDT(vicky, raj, tester)">
+                  </a> <!-- test_POST_DDT(vicky, raj, tester) -->
+                  <span class="method-name">test_POST_DDT</span>
+                  <span class="parameters">(vicky, raj, tester)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_POST_DDT(jeya, shanthi, analyst)">
+                  </a> <!-- test_POST_DDT(jeya, shanthi, analyst) -->
+                  <span class="method-name">test_POST_DDT</span>
+                  <span class="parameters">(jeya, shanthi, analyst)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_POST_DDT(joseph, vijay, software)">
+                  </a> <!-- test_POST_DDT(joseph, vijay, software) -->
+                  <span class="method-name">test_POST_DDT</span>
+                  <span class="parameters">(joseph, vijay, software)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RESTAPI_TESTING-class-passed -->
+        </div> <!-- panel RESTAPI_TESTING -->
+        <div panel-name="test-xml-RESTAPI_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse-workspace\com.RestAssured_Project\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RESTAPI_TESTING&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.RestAssured_Project_Utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HTTP-METHODS&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.RestAssured_Project_TestCases.TC_001_GET&quot;/&gt;
+      &lt;class name=&quot;com.RestAssured_Project_TestCases.TC_002_POST&quot;/&gt;
+      &lt;class name=&quot;com.RestAssured_Project_TestCases.TC_003_POST_DDT&quot;/&gt;
+      &lt;class name=&quot;com.RestAssured_Project_TestCases.TC_004_PUT&quot;/&gt;
+      &lt;class name=&quot;com.RestAssured_Project_TestCases.TC_005_DELETE&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HTTP-METHODS --&gt;
+&lt;/suite&gt; &lt;!-- RESTAPI_TESTING --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RESTAPI_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RESTAPI_TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HTTP-METHODS (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RESTAPI_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RESTAPI_TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RESTAPI_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RESTAPI_TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RESTAPI_TESTING');
+function tableData_RESTAPI_TESTING() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'check_POSTDetails')
+data.setCell(0, 2, 'com.RestAssured_Project_TestCases.TC_002_POST')
+data.setCell(0, 3, 864);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_POST_DDT')
+data.setCell(1, 2, 'com.RestAssured_Project_TestCases.TC_003_POST_DDT')
+data.setCell(1, 3, 723);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_POST_DDT')
+data.setCell(2, 2, 'com.RestAssured_Project_TestCases.TC_003_POST_DDT')
+data.setCell(2, 3, 538);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_POST_DDT')
+data.setCell(3, 2, 'com.RestAssured_Project_TestCases.TC_003_POST_DDT')
+data.setCell(3, 3, 503);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_POST_DDT')
+data.setCell(4, 2, 'com.RestAssured_Project_TestCases.TC_003_POST_DDT')
+data.setCell(4, 3, 464);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_POST_DDT')
+data.setCell(5, 2, 'com.RestAssured_Project_TestCases.TC_003_POST_DDT')
+data.setCell(5, 3, 447);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'check_POSTDetails')
+data.setCell(6, 2, 'com.RestAssured_Project_TestCases.TC_004_PUT')
+data.setCell(6, 3, 62);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'check_responseBody')
+data.setCell(7, 2, 'com.RestAssured_Project_TestCases.TC_001_GET')
+data.setCell(7, 3, 33);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'check_Contenttype')
+data.setCell(8, 2, 'com.RestAssured_Project_TestCases.TC_001_GET')
+data.setCell(8, 3, 10);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'check_responseBody')
+data.setCell(9, 2, 'com.RestAssured_Project_TestCases.TC_005_DELETE')
+data.setCell(9, 3, 7);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'check_statuscode')
+data.setCell(10, 2, 'com.RestAssured_Project_TestCases.TC_002_POST')
+data.setCell(10, 3, 5);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'check_responsetime')
+data.setCell(11, 2, 'com.RestAssured_Project_TestCases.TC_005_DELETE')
+data.setCell(11, 3, 5);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'check_responsetime')
+data.setCell(12, 2, 'com.RestAssured_Project_TestCases.TC_002_POST')
+data.setCell(12, 3, 4);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'check_statusLINE')
+data.setCell(13, 2, 'com.RestAssured_Project_TestCases.TC_002_POST')
+data.setCell(13, 3, 4);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'check_responsetime')
+data.setCell(14, 2, 'com.RestAssured_Project_TestCases.TC_004_PUT')
+data.setCell(14, 3, 4);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'check_responsetime')
+data.setCell(15, 2, 'com.RestAssured_Project_TestCases.TC_001_GET')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'check_statusLINE')
+data.setCell(16, 2, 'com.RestAssured_Project_TestCases.TC_005_DELETE')
+data.setCell(16, 3, 3);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'check_statuscode')
+data.setCell(17, 2, 'com.RestAssured_Project_TestCases.TC_005_DELETE')
+data.setCell(17, 3, 3);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'check_responseBody')
+data.setCell(18, 2, 'com.RestAssured_Project_TestCases.TC_002_POST')
+data.setCell(18, 3, 3);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'check_Contenttype')
+data.setCell(19, 2, 'com.RestAssured_Project_TestCases.TC_004_PUT')
+data.setCell(19, 3, 3);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'check_statuscode')
+data.setCell(20, 2, 'com.RestAssured_Project_TestCases.TC_001_GET')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'check_responseBody')
+data.setCell(21, 2, 'com.RestAssured_Project_TestCases.TC_004_PUT')
+data.setCell(21, 3, 2);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'check_contentEncoding')
+data.setCell(22, 2, 'com.RestAssured_Project_TestCases.TC_001_GET')
+data.setCell(22, 3, 2);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'check_statusLINE')
+data.setCell(23, 2, 'com.RestAssured_Project_TestCases.TC_001_GET')
+data.setCell(23, 3, 2);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'check_server')
+data.setCell(24, 2, 'com.RestAssured_Project_TestCases.TC_001_GET')
+data.setCell(24, 3, 2);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'check_statusLINE')
+data.setCell(25, 2, 'com.RestAssured_Project_TestCases.TC_004_PUT')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'check_statuscode')
+data.setCell(26, 2, 'com.RestAssured_Project_TestCases.TC_004_PUT')
+data.setCell(26, 3, 1);
+window.suiteTableData['RESTAPI_TESTING']= { tableData: data, tableDiv: 'times-div-RESTAPI_TESTING'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-RESTAPI_TESTING">
+              </div> <!-- times-div-RESTAPI_TESTING -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RESTAPI_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RESTAPI_TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RESTAPI_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RESTAPI_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RestAssured_Project_TestCases.TC_001_GET</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">test_Setup</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">check_Contenttype</span>
+                <span class="method-start">2448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_contentEncoding</span>
+                <span class="method-start">2475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_responseBody</span>
+                <span class="method-start">2479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_responsetime</span>
+                <span class="method-start">2517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_server</span>
+                <span class="method-start">2523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_statusLINE</span>
+                <span class="method-start">2527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_statuscode</span>
+                <span class="method-start">2533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">2540 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RestAssured_Project_TestCases.TC_002_POST</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2543 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">test_Setup</span>
+                <span class="method-start">2548 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">check_POSTDetails</span>
+                <span class="method-start">3067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_responseBody</span>
+                <span class="method-start">3935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_responsetime</span>
+                <span class="method-start">3940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_statusLINE</span>
+                <span class="method-start">3947 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_statuscode</span>
+                <span class="method-start">3954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">3966 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RestAssured_Project_TestCases.TC_003_POST_DDT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3969 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_POST_DDT(vicky, raj, tester)</span>
+                <span class="method-start">5222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_POST_DDT(joseph, vijay, software)</span>
+                <span class="method-start">5948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_POST_DDT(suba, ragavi, designer)</span>
+                <span class="method-start">6456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_POST_DDT(sam, mithra, actor)</span>
+                <span class="method-start">6999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_POST_DDT(jeya, shanthi, analyst)</span>
+                <span class="method-start">7464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">7914 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RestAssured_Project_TestCases.TC_004_PUT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7919 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">test_Setup</span>
+                <span class="method-start">7934 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">check_Contenttype</span>
+                <span class="method-start">8363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_POSTDetails</span>
+                <span class="method-start">8370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_responseBody</span>
+                <span class="method-start">8433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_responsetime</span>
+                <span class="method-start">8436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_statusLINE</span>
+                <span class="method-start">8443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_statuscode</span>
+                <span class="method-start">8446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">8448 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RestAssured_Project_TestCases.TC_005_DELETE</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">8450 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">test_DELETE</span>
+                <span class="method-start">8453 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">check_responseBody</span>
+                <span class="method-start">8890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_responsetime</span>
+                <span class="method-start">8901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_statusLINE</span>
+                <span class="method-start">8915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check_statuscode</span>
+                <span class="method-start">8921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">8926 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

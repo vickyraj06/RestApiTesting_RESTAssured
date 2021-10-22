@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RESTAPI_TESTING">
+<listeners>
+<listener class-name="com.RestAssured_Project_Utilities.Reporting"></listener></listeners>
+<test name="HTTP-METHODS">
+<classes>
+<class name="com.RestAssured_Project_TestCases.TC_001_GET"></class>
+<class name="com.RestAssured_Project_TestCases.TC_002_POST"></class>
+<class name="com.RestAssured_Project_TestCases.TC_003_POST_DDT"></class>
+<class name="com.RestAssured_Project_TestCases.TC_004_PUT"></class>
+<class name="com.RestAssured_Project_TestCases.TC_005_DELETE"></class>
+</classes>
+</test>
+</suite>
